@@ -1,3 +1,4 @@
-# A fabulous Earth Data Science Portfolio
-repo for earth analytics course
-* My portfolio can be found here (https://bioncphilic.github.io)
+# Randi's Earth Data Science Portfolio
+### My brackground is in STEM Education. Working to bring real world data to the classroom.
+> My portfolio can be found [here](https://bioncphilic.github.io)
+* Email: r_neff@southwesterncc.edu
