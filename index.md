@@ -7,4 +7,7 @@
 * Email: r_neff@southwesterncc.edu
 * [LinkedIN](https://www.linkedin.com/in/randi-neff-b7a27823b/)
 
-I am an informal educator & Project Coordinator for the Smoky Mountain STEM Collaborative which is part of [NASA's SciAct community](https://science.nasa.gov/learn/science-activation-team/}.
+I am an informal educator & Project Coordinator for the Smoky Mountain STEM Collaborative {SMSC} which is part of [NASA's SciAct community](https://science.nasa.gov/learn/science-activation-team/).
+SMSC is located at Southwestern Community College shown in the map below.
+
+<embed type="text/html" src="uttc.html" width="600" height="600">
