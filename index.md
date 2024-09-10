@@ -6,3 +6,5 @@
 ### Contact Information
 * Email: r_neff@southwesterncc.edu
 * [LinkedIN](https://www.linkedin.com/in/randi-neff-b7a27823b/)
+
+I am an informal educator & Project Coordinator for the Smoky Mountain STEM Collaborative which is part of [NASA's SciAct community](https://science.nasa.gov/learn/science-activation-team/}.
