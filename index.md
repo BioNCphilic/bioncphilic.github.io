@@ -10,3 +10,7 @@
 I am an informal educator & Project Coordinator for the Smoky Mountain STEM Collaborative {SMSC} which is part of [NASA's SciAct community](https://science.nasa.gov/learn/science-activation-team/).
 ### SMSC is located at Southwestern Community College shown in the map below.
 <embed type="text/html" src="img/uttc.html" width="600" height="600">
+
+## Sources:
+
+* Open Street Map "Southwestern Community College - Jackson Campus (601443373), Sept. 2024 [https://www.openstreetmap.org/way/601443373](https://www.openstreetmap.org/way/601443373)
