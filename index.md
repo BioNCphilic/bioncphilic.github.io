@@ -8,8 +8,9 @@
 * [LinkedIN](https://www.linkedin.com/in/randi-neff-b7a27823b/)
 
 I have been the Project Coordinator for the Smoky Mountain STEM Collaborative {SMSC} at SCC since 2018. SMSC is part of 
-[NASA's SciAct community](https://science.nasa.gov/learn/science-activation-team/). Southwestern is the nation's only community college 
-to have a Science Activation partnership with NASA. The Smoky Mountain STEM Collaborative has been funded since 2015. 
+[NASA's SciAct community](https://science.nasa.gov/learn/science-activation-team/). 
+Southwestern is the nation's only community college  to have a Science Activation partnership with NASA. 
+The Smoky Mountain STEM Collaborative has been funded since 2015. 
 The land where SCC is located is the ancestral home of the Eastern Band of the Cherokee Indians in the mountains of western North Carolina and 
 not far from the Qualla Boundary where the Cherokee People currently reside.
 
