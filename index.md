@@ -1,21 +1,28 @@
+
 <head>
 <title>Randi Neff | Earth Data Analytics Certificate Course 2024</title>
   </head>
-<body>
-<div class="wrapper"> == $0
-  <header> == $0
-    <h1> == $0
+<div class="max-width">This div element has max-width: 960px;</div>
+.max-width {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #73AD21;
+}
+  <header>
+    <h1>
       <a href="https://github.com/BioNCphilic">Randi Neff</a>
       </h1>
 <p>Earth Data Analytics Certificate Course 2024</p>
 <p>
-    ### Contact Information
+### Contact Information
 * Email: <a href="mailto:r_neff@southwesterncc.edu">r_neff@southwesterncc.edu</a>
 * [LinkedIN](https://www.linkedin.com/in/randi-neff-b7a27823b/)
 * GitHub: <a href="https://github.com/BioNCphilic">BioNCphilic</a>
 </p>
   </header>
-<section> == $0
+  
+<body>
 <p># My Earth Data Science Portfolio
 ## Documenting my adventures learning to be a data translator for educators
 This adventure made possible through the University of Colorado Boulder
@@ -40,5 +47,4 @@ not far from the Qualla Boundary where the Cherokee People currently reside. Cre
 
 <p>## Sources:
 * Open Street Map "Southwestern Community College - Jackson Campus (601443373), Sept. 2024 [https://www.openstreetmap.org/way/601443373](https://www.openstreetmap.org/way/601443373)</p>
-</section>
 </body>
