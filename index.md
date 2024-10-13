@@ -2,12 +2,18 @@
 <title>Randi Neff | Earth Data Analytics Certificate Course 2024</title>
   </head>
 <body>
-<div class="wrapper"> ==$0
+<div class="wrapper"> == $0
   <header> == $0
     <h1> == $0
       <a href="https://github.com/BioNCphilic">Randi Neff</a>
       </h1>
-    <p>Earth Data Analytics Certificate Course 2024</p>
+<p>Earth Data Analytics Certificate Course 2024</p>
+<p>
+    ### Contact Information
+* Email: <a href="mailto:r_neff@southwesterncc.edu">r_neff@southwesterncc.edu</a>
+* [LinkedIN](https://www.linkedin.com/in/randi-neff-b7a27823b/)
+* GitHub: <a href="https://github.com/BioNCphilic">BioNCphilic</a>
+</p>
   </header>
 <section> == $0
 <p># My Earth Data Science Portfolio
@@ -18,12 +24,6 @@ and the Environmental Data Science Innovation and Inclusion Lab
 <p><img src="/img/003-WYsm.jpg" alt="Snow on mountains in Wyoming in July" width="50%"/>
 </p>
     
-<p>
-    ### Contact Information
-* Email: <a href="mailto:r_neff@southwesterncc.edu">r_neff@southwesterncc.edu</a>
-* [LinkedIN](https://www.linkedin.com/in/randi-neff-b7a27823b/)
-* GitHub: <a href="https://github.com/BioNCphilic">BioNCphilic</a>
-</p>
 <p>I have been the Project Coordinator for the Smoky Mountain STEM Collaborative {SMSC} at SCC since 2018. SMSC is part of 
 [NASA's SciAct community](https://science.nasa.gov/learn/science-activation-team/). Southwestern is the nation's only 
 community college to have a collaborative partnership with NASA which started in 2015. My background is in science education
