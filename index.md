@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <head>
 <title>Randi Neff | Earth Data Analytics Certificate Course 2024</title>
   </head>
