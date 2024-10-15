@@ -1,5 +1,6 @@
-title: 
+title: My Earth Data Science Portfolio
 description: Earth Data Analytics Certificate Course 2024
+logo: <img src="/img/003-WYsm.jpg" alt="Snow on mountains in Wyoming in July" width="50%"/>
 name:
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
