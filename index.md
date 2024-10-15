@@ -1,5 +1,4 @@
-# My Earth Data Science Portfolio
-## Documenting my adventures learning to be a data translator for educators
+# Documenting my adventures learning to be a data translator for educators
 This adventure made possible through the University of Colorado Boulder
 and the Environmental Data Science Innovation and Inclusion Lab
 
