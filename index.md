@@ -1,4 +1,4 @@
-# Documenting my adventures learning to be a data translator for educators
+# Documenting my adventures 
 This adventure made possible through the University of Colorado Boulder
 and the Environmental Data Science Innovation and Inclusion Lab
 
