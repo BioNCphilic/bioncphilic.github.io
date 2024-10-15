@@ -5,7 +5,6 @@ and the Environmental Data Science Innovation and Inclusion Lab
 ### Contact Information
 * Email: <a href="mailto:r_neff@southwesterncc.edu">r_neff@southwesterncc.edu</a>
 * [LinkedIN](https://www.linkedin.com/in/randi-neff-b7a27823b/)
-* GitHub: <a href="https://github.com/BioNCphilic">BioNCphilic
 
 I have been the Project Coordinator for the Smoky Mountain STEM Collaborative {SMSC} at SCC since 2018. SMSC is part of 
 [NASA's SciAct community](https://science.nasa.gov/learn/science-activation-team/). Southwestern is the nation's only 
