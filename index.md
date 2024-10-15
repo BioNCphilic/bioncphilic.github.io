@@ -3,8 +3,6 @@
 This adventure made possible through the University of Colorado Boulder
 and the Environmental Data Science Innovation and Inclusion Lab
 
-<img src="/img/003-WYsm.jpg" alt="Snow on mountains in Wyoming in July" width="50%"/>
-
 ### Contact Information
 * Email: <a href="mailto:r_neff@southwesterncc.edu">r_neff@southwesterncc.edu</a>
 * [LinkedIN](https://www.linkedin.com/in/randi-neff-b7a27823b/)
