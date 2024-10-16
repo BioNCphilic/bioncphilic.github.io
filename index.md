@@ -1,4 +1,4 @@
-# Documenting my adventures 
+# Documenting my learning adventure 
 This adventure made possible through the University of Colorado Boulder
 and the Environmental Data Science Innovation and Inclusion Lab
 
