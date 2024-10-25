@@ -22,7 +22,7 @@ not far from the Qualla Boundary where the Cherokee People currently reside. Cre
 ### Interactive Map of Veery Migration
 <embed type="text/html" src="img/migration.html" width="600" height="600">
 
-The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. While it is not found in the southeastern US, it may be able to anticipate hurricanes in the Atlantic according to a study by Christopher Heckscher. Unfortunately, Atlantic hurricanes tend to coincide with Veery migration and has a negative impact on their breeding season. This is not the only species impacted by changes in climate.
+The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is found in the southeastern US during migration and it may be able to anticipate hurricanes in the Atlantic according to a study by Christopher Heckscher. Unfortunately, Atlantic hurricanes tend to coincide with Veery migration and have a negative impact on their breeding season. This is an example of species that is studied in phenology - the impact of a changing climate on the cyclical pattern of an organisms life history.
 
 ## Sources:
 
