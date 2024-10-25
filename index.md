@@ -20,7 +20,7 @@ The land where SCC is located is the ancestral home of the Eastern Band of the C
 not far from the Qualla Boundary where the Cherokee People currently reside. Creating an interactive map using Open Street Map was our first assignment.
 
 ### Interactive Map of Veery Migration
-<embed type="text/html" src="migration.html" width="600" height="600">
+<embed type="text/html" src="img/migration.html" width="600" height="600">
 
 The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. While it is not found in the southeastern US, it may be able to anticipate hurricanes in the Atlantic according to a study by Christopher Heckscher. Unfortunately, Atlantic hurricanes tend to coincide with Veery migration and has a negative impact on their breeding season. This is not the only species impacted by changes in climate.
 
