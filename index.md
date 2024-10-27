@@ -29,3 +29,4 @@ The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is f
 * Open Street Map "Southwestern Community College - Jackson Campus (601443373), Sept. 2024 [https://www.openstreetmap.org/way/601443373](https://www.openstreetmap.org/way/601443373)
 * Heckscher, Christopher M. 2018. “A Nearctic-Neotropical Migratory Songbird’s Nesting Phenology and Clutch Size Are Predictors of Accumulated Cyclone Energy.” Scientific Reports 8 (1): 9899. https://doi.org/10.1038/s41598-018-28302-3.
 * GBIF.org (27 October 2024) GBIF Occurrence Download https://doi.org/10.15468/dl.r463v3
+* https://nc.audubon.org/news/priority-bird-profile-rose-breasted-grosbeak
