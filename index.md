@@ -33,8 +33,9 @@ not far from the Qualla Boundary where the Cherokee People currently reside. Cre
   
 ### Our guided learning focused on Denver Colorado (elevation 5280ft) and then we selected a new location and used data from The Global Historical Climatology Network. Below is a comparison of temperature trends in North Carolina and Denver Colorado.
 <img src="img/denver_trendline.png" alt="A graph showing a linear regression of mean annual temperatures in Denver, Co">
+<img src="img/coweeta_trendline.png" alt="A graph showing a linear regression of mean annual temperatures at Coweeta Hydrologic Lab">
 
-### Here is my individual work including the python code showing annual mean temperatures at Coweeta Hydrologic Lab (elevation 2200-3800ft). I chose Coweeta because it is near where I live and work and has been collecting data for a long time. Note that it's hard to compare the two trendlines because one is in degrees Fahrenheit and the other is in degrees Celcisus. However, the slope on both plots show a gradual trend upward. If I weren't trying to finish the rest of the assignments, I might run some additional statistics, but for now I'm thrilled I can share this part of my work especially since hurricane Helene caused the NOAA data center to be offline for a little while.
+### Here is my python code showing extraction and analysis of data from Coweeta Hydrologic Lab (elevation 2200-3800ft). I chose Coweeta because it is near where I live and work and has been collecting data for a long time. Note that it's hard to compare the two trendlines because one is in degrees Fahrenheit and the other is in degrees Celcisus. However, the slope on both plots show a gradual trend upward. If I weren't trying to finish the rest of the assignments, I might run some additional statistics, but for now I'm thrilled I can share this part of my work especially since hurricane Helene caused the NOAA data center to be offline for a little while.
 <embed type="text/html" src="notebooks/nc_climate.html" width="600" height="600">
 
 ## Mapping Migration - Species Distribution challenge - we learned to:
