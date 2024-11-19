@@ -30,8 +30,9 @@ not far from the Qualla Boundary where the Cherokee People currently reside. Cre
 * Parse date information so that it is represented as a datetime type
 * Use operators to convert to different units
 * Resample time-series data to different frequencies
+* 
 ### Our guided learning focused on Denver Colorado (elevation 5280ft)
-<embed type="image" src="img/denver_trendline.png" width="600" height="600">
+<img src="img/denver_trendline.png" alt="A graph showing a linear regression of mean annual temperatures in Denver, Co">
 
 
 ### Interactive Map of Veery Migration
