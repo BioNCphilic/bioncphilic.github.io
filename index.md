@@ -14,7 +14,7 @@ for Western Carolina University's Upward bound Math & Science program. Inspiring
 them the tools to do that is my passion.
 
 # My Projects
-1. Adding a Map - we learned to:
+## Adding a Map - we learned to:
 * Define geospatial vector data
 * Search for geospatial features
 * Construct a map and embed it into a portfolio website
@@ -25,17 +25,23 @@ them the tools to do that is my passion.
 The land where SCC is located is the ancestral home of the Eastern Band of the Cherokee Indians in the mountains of western North Carolina and 
 not far from the Qualla Boundary where the Cherokee People currently reside. Creating an interactive map using Open Street Map was our first assignment.
 
-2. Climate Coding Challenge - we learned to:
+## Climate Coding Challenge - we learned to:
 * Analyze temperature data over time
 * Parse date information so that it is represented as a datetime type
 * Use operators to convert to different units
 * Resample time-series data to different frequencies
-* 
-### Our guided learning focused on Denver Colorado (elevation 5280ft)
+  
+### Our guided learning focused on Denver Colorado (elevation 5280ft) and then we selected a new location and used data from The Global Historical Climatology Network. Below is a comparison of temperature trends in North Carolina and Denver Colorado.
 <img src="img/denver_trendline.png" alt="A graph showing a linear regression of mean annual temperatures in Denver, Co">
 
+### Here is my individual work including the python code showing annual mean temperatures at Coweeta Hydrologic Lab (elevation 2200-3800ft). I chose Coweeta because it is near where I live and work and has been collecting data for a long time. Note that it's hard to compare the two trendlines because one is in degrees Fahrenheit and the other is in degrees Celcisus. However, the slope on both plots show a gradual trend upward. If I weren't trying to finish the rest of the assignments, I might run some additional statistics, but for now I'm thrilled I can share this part of my work especially since hurricane Helene caused the NOAA data center to be offline for a little while.
+<embed type="text/html" src="notebooks/nc_climate.html" width="600" height="600">
 
-### Interactive Map of Veery Migration
+## Mapping Migration - Species Distribution challenge - we learned to:
+* Combine different types of vector data with spatial joins
+* Create a chloropleth plot
+  
+## This Interactive Map of Veery Migration was our guided learning exercise and then we picked another species to try on our own.
 <embed type="text/html" src="img/migration.html" width="600" height="600">
 
 The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is found in the southeastern US during migration and it may be able to anticipate hurricanes in the Atlantic according to a study by Christopher Heckscher. Unfortunately, Atlantic hurricanes tend to coincide with Veery migration and have a negative impact on their breeding season. This is an example of species that is studied in phenology - the impact of a changing climate on the cyclical pattern of an organisms life history.
