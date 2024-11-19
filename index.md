@@ -31,7 +31,7 @@ not far from the Qualla Boundary where the Cherokee People currently reside. Cre
 * Use operators to convert to different units
 * Resample time-series data to different frequencies
 ### Our guided learning focused on Denver Colorado (elevation 5280ft)
-<embed type="text/html" src="img/denver.trndline.png" width="600" height="600">
+<embed type="image" src="img/denver_trendline.png" width="600" height="600">
 
 
 ### Interactive Map of Veery Migration
