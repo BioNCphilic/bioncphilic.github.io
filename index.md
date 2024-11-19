@@ -1,4 +1,4 @@
-# Documenting my learning adventure 
+# Documenting my Learning Adventure 
 This adventure made possible through the University of Colorado Boulder
 and the Environmental Data Science Innovation and Inclusion Lab
 
@@ -13,11 +13,26 @@ with experience in the classroom at both the high school and college level. In a
 for Western Carolina University's Upward bound Math & Science program. Inspiring young people to answer their own questions and giving
 them the tools to do that is my passion.
 
+# My Projects
+1. Adding a Map - we learned to:
+* Define geospatial vector data
+* Search for geospatial features
+* Construct a map and embed it into a portfolio website
+
 ### SMSC is located at Southwestern Community College shown in the map below.
 <embed type="text/html" src="img/uttc.html" width="600" height="600">
 
 The land where SCC is located is the ancestral home of the Eastern Band of the Cherokee Indians in the mountains of western North Carolina and 
 not far from the Qualla Boundary where the Cherokee People currently reside. Creating an interactive map using Open Street Map was our first assignment.
+
+2. Climate Coding Challenge - we learned to:
+* Analyze temperature data over time
+* Parse date information so that it is represented as a datetime type
+* Use operators to convert to different units
+* Resample time-series data to different frequencies
+### Our guided learning focused on Denver Colorado (elevation 5280ft)
+<embed type="text/html" src="img/denver.trndline.png" width="600" height="600">
+
 
 ### Interactive Map of Veery Migration
 <embed type="text/html" src="img/migration.html" width="600" height="600">
