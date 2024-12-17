@@ -1,6 +1,6 @@
 # Documenting my Learning Adventure 
 This adventure made possible through the University of Colorado Boulder
-and the Environmental Data Science Innovation and Inclusion Lab
+and the [Environmental Data Science Innovation and Inclusion Lab](https://esiil.org/)
 
 ### Contact Information
 * Email: <a href="mailto:r_neff@southwesterncc.edu">r_neff@southwesterncc.edu</a>
@@ -9,11 +9,11 @@ and the Environmental Data Science Innovation and Inclusion Lab
 I have been the Project Coordinator for the Smoky Mountain STEM Collaborative {SMSC} at SCC since 2018. SMSC is part of 
 [NASA's SciAct community](https://science.nasa.gov/learn/science-activation-team/). Southwestern is the nation's only 
 community college to have a collaborative partnership with NASA which started in 2015. My background is in science education
-with experience in the classroom at both the high school and college level. In addition, I have worked as the assistant director
-for Western Carolina University's Upward bound Math & Science program. Inspiring young people to answer their own questions and giving
-them the tools to do that is my passion.
+with 16 years experience teaching High School and I have an M.S. in Biology with many years teaching at the college level. In addition, 
+I also worked as the assistant director for Western Carolina University's Upward bound Math & Science program in the 1990s. 
+My passions are inspiring young people to answer their own questions and supporting those who live and work in western North Carolina.
 
-# My Projects
+# My Projects for the [Earth Data Analytics Professional Graduate Certificate](https://earthlab.colorado.edu/earth-data-analytics-professional-graduate-certificate)
 ## Adding a Map - we learned to:
 * Define geospatial vector data
 * Search for geospatial features
@@ -21,9 +21,9 @@ them the tools to do that is my passion.
 
 ### SMSC is located at Southwestern Community College shown in the map below.
 <embed type="text/html" src="img/uttc.html" width="600" height="600">
-
 The land where SCC is located is the ancestral home of the Eastern Band of the Cherokee Indians in the mountains of western North Carolina and 
-not far from the Qualla Boundary where the Cherokee People currently reside. Creating an interactive map using Open Street Map was our first assignment.
+not far from the Qualla Boundary where the Cherokee People reside. This is my home too and I hope to foster stewardship of this land through data.
+Creating an interactive map using Open Street Map was our first assignment.  
 
 ## Climate Coding Challenge - we learned to:
 * Analyze temperature data over time
@@ -46,9 +46,15 @@ not far from the Qualla Boundary where the Cherokee People currently reside. Cre
 
 The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is found in the southeastern US during migration and it may be able to anticipate hurricanes in the Atlantic according to a study by Christopher Heckscher. Unfortunately, Atlantic hurricanes tend to coincide with Veery migration and have a negative impact on their breeding season. This is an example of species that is studied in phenology - the impact of a changing climate on the cyclical pattern of an organisms life history.
 
+## Habitat Suitability Project - we learned to:
+* Create a habitat suitability model.
+* The model is based on combining multiple data layers related to soil, topography, and climate.
+* I chose native Rivercane - <i>Arundinaria gigantea</i> - because restoration efforts are relevant locally
+
+### My work on this project can be viewed [here](https://github.com/BioNCphilic/rivercane). It is a work in progress which I plan to complete during the spring semester.
+
 ## Sources:
 
 * Open Street Map "Southwestern Community College - Jackson Campus (601443373), Sept. 2024 [https://www.openstreetmap.org/way/601443373](https://www.openstreetmap.org/way/601443373)
 * Heckscher, Christopher M. 2018. “A Nearctic-Neotropical Migratory Songbird’s Nesting Phenology and Clutch Size Are Predictors of Accumulated Cyclone Energy.” Scientific Reports 8 (1): 9899. https://doi.org/10.1038/s41598-018-28302-3.
 * GBIF.org (27 October 2024) GBIF Occurrence Download https://doi.org/10.15468/dl.r463v3
-* https://nc.audubon.org/news/priority-bird-profile-rose-breasted-grosbeak
