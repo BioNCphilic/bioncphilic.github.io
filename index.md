@@ -68,4 +68,4 @@ The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is f
 
 ### The result of this model shows that access to greenspace can explain some of the geographic distribution of asthma, but other factors are involved. 
 
-### Here is [my python code](/post/final_portland_model.html) for the model.
+### Here is [my python code](/post/corrected_portland_model.html) for the model.
