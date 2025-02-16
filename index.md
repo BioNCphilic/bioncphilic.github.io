@@ -61,7 +61,11 @@ The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is f
 
 # Modeling Urban Asthma Rates
 <img src="img/asthma_veg_maps.png" alt="A comparison of asthma rates with the geographic distribution of healthy vegetation as determined by NDVI.">
-A comparison of asthma rates with the geographic distribution of healthy vegetation as determined by NDVI.
+
+### A comparison of asthma rates with the geographic distribution of healthy vegetation as determined by NDVI.
 
 <img src="img/portland_model.png">
-The result of this model shows that access to greenspace can explain some of the geographic distribution of asthma, but other factors are involved. The code for the model can be found [here]/post/portland_model.html).
+
+### The result of this model shows that access to greenspace can explain some of the geographic distribution of asthma, but other factors are involved. 
+
+### Here is [my python code](/post/final_portland_model.html) for the model.
