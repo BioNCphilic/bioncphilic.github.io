@@ -58,3 +58,10 @@ The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is f
 * Open Street Map "Southwestern Community College - Jackson Campus (601443373), Sept. 2024 [https://www.openstreetmap.org/way/601443373](https://www.openstreetmap.org/way/601443373)
 * Heckscher, Christopher M. 2018. “A Nearctic-Neotropical Migratory Songbird’s Nesting Phenology and Clutch Size Are Predictors of Accumulated Cyclone Energy.” Scientific Reports 8 (1): 9899. [https://doi.org/10.1038/s41598-018-28302-3](https://doi.org/10.1038/s41598-018-28302-3).
 * GBIF.org (27 October 2024) GBIF Occurrence Download [https://doi.org/10.15468/dl.r463v3](https://doi.org/10.15468/dl.r463v3)
+
+# Modeling Urban Asthma Rates
+<img src="img/asthma_veg_maps.png" alt="A comparison of asthma rates with the geographic distribution of healthy vegetation as determined by NDVI.">
+A comparison of asthma rates with the geographic distribution of healthy vegetation as determined by NDVI.
+
+<img src="img/portland_model.png">
+The result of this model shows that access to greenspace can explain some of the geographic distribution of asthma, but other factors are involved. The code for the model can be found [here]/post/portland_model.html).
