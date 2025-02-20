@@ -74,6 +74,15 @@ Please note there are some data gaps due to changes made recently on the CDC web
 # Land Classification Project
 ### This project used an unsupervised K-means clustering algorithm to group land cover pixels by similar spectral signatures. This study will use the [harmonized Sentinal/Landsat multispectral dataset](https://lpdaac.usgs.gov/documents/1698/HLS_User_Guide_V2.pdf) to look at patterns in vegetation data. The HUC region 8 watershed extends from Missouri to the Gulf of Mexico and the lower extent near New Orleans is the focus for this analysis. The EPA ecoregion designation is Mississippi Alluvial and SE Coastal Plains. According to a publication by the Louisiana Geological Survey, the area is comprised of "...a diversity of grasses, sedges, and rushes." However, there has been a tremendous amount of human engineering of this environment.
 
+<img src="img/Mississippi_region.png">
+
+<img src="img/Mississippi_delta.png">
+## Land Cover Interpretation based on Spectral Data
+### According to America’s Watershed Initiative, the wetlands in the lower Mississippi region being studied have been depleted annually since the 1930s and excess nutrient discharges have created "dead zones" or areas of low oxygen where life struggles to exist. [1] The K-means cluster analysis in the above images shows 6 clusters of land forms spread out over the region. Some, like clusters, 4 and 0 have areas where they are concentrated, but most landform clusters are highly dispersed. In a study by Roy et al, their " ...data suggests that single transition land loss is caused by wave-edge erosion, whereas multiple transition land loss is caused by subsidence." [2] Given that most of the landform clusters are fragmented, I would expect clusters 4 and 0 to be mostly aquatic and the remainder to be composed of grasses, sedges and rushes. Here is [my python code](/post/clustering_project.html)
+
 ### Sources
+1. America’s Watershed Initiative Report Card for the Mississippi River. Dec. 2015. Available online at: https://americaswatershed.org/wp-content/uploads/2015/12/Mississippi-River-Report-Card-Methods-v10.1.pdf
+2. Samapriya Roy et al. 2020. Spatial and temporal patterns of land loss in the Lower Mississippi River Delta from 1983 to 2016. Remote Sensing of Environment 250 (2020) 112046. Available online at: https://www.sciencedirect.com/science/article/abs/pii/S0034425720304168
+
 * USDA (2012), Response to RFI for Long-Term Agro-ecosystem Research (LTAR) Network, available online at: https://www.ars.usda.gov/ARSUserFiles/np211/LMRBProposal.pdf.
 * John Snead, Richard P. McCulloh, and Paul V. Heinrich (2019) Landforms of the Louisiana Coastal Plain, Louisiana Geological Survey, available online at: https://www.lsu.edu/lgs/publications/products/landforms_book.pdf 
