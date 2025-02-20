@@ -70,3 +70,10 @@ The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is f
 
 ### Here is [my python code](/post/corrected_portland_model.html) for the model.
 Please note there are some data gaps due to changes made recently on the CDC website.
+
+# Land Classification Project
+### This project used an unsupervised K-means clustering algorithm to group land cover pixels by similar spectral signatures. This study will use the [harmonized Sentinal/Landsat multispectral dataset](https://lpdaac.usgs.gov/documents/1698/HLS_User_Guide_V2.pdf) to look at patterns in vegetation data. The HUC region 8 watershed extends from Missouri to the Gulf of Mexico and the lower extent near New Orleans is the focus for this analysis. The EPA ecoregion designation is Mississippi Alluvial and SE Coastal Plains. According to a publication by the Louisiana Geological Survey, the area is comprised of "...a diversity of grasses, sedges, and rushes." However, there has been a tremendous amount of human engineering of this environment.
+
+### Sources
+* USDA (2012), Response to RFI for Long-Term Agro-ecosystem Research (LTAR) Network, available online at: https://www.ars.usda.gov/ARSUserFiles/np211/LMRBProposal.pdf.
+* John Snead, Richard P. McCulloh, and Paul V. Heinrich (2019) Landforms of the Louisiana Coastal Plain, Louisiana Geological Survey, available online at: https://www.lsu.edu/lgs/publications/products/landforms_book.pdf 
