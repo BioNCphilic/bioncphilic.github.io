@@ -72,17 +72,21 @@ The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is f
 Please note there are some data gaps due to changes made recently on the CDC website.
 
 # Land Classification Project
-### This project used an unsupervised K-means clustering algorithm to group land cover pixels by similar spectral signatures. This study will use the [harmonized Sentinal/Landsat multispectral dataset](https://lpdaac.usgs.gov/documents/1698/HLS_User_Guide_V2.pdf) to look at patterns in vegetation data. The HUC region 8 watershed extends from Missouri to the Gulf of Mexico and the lower extent near New Orleans is the focus for this analysis. The EPA ecoregion designation is Mississippi Alluvial and SE Coastal Plains. According to a publication by the Louisiana Geological Survey, the area is comprised of "...a diversity of grasses, sedges, and rushes." However, there has been a tremendous amount of human engineering of this environment.
+### This project used an unsupervised K-means clustering algorithm to group land cover pixels by similar spectral signatures. This study will use the [harmonized Sentinal/Landsat multispectral dataset](https://lpdaac.usgs.gov/documents/1698/HLS_User_Guide_V2.pdf) to look at patterns in vegetation data. The HUC region 6 watershed covers the drainage of the Tennessee River Basin from Kentucky to the Gulf of Mexico. Most of the Tuckasegee River basin within this region is forested.
 
-<img src="img/Mississippi_region.png">
+<img src="img/Tuck_watershed.png">
 
-<img src="img/Mississippi_delta.png">
 ## Land Cover Interpretation based on Spectral Data
-### According to America’s Watershed Initiative, the wetlands in the lower Mississippi region being studied have been depleted annually since the 1930s and excess nutrient discharges have created "dead zones" or areas of low oxygen where life struggles to exist. [1] The K-means cluster analysis in the above images shows 6 clusters of land forms spread out over the region. Some, like clusters, 4 and 0 have areas where they are concentrated, but most landform clusters are highly dispersed. In a study by Roy et al, their " ...data suggests that single transition land loss is caused by wave-edge erosion, whereas multiple transition land loss is caused by subsidence." [2] Given that most of the landform clusters are fragmented, I would expect clusters 4 and 0 to be mostly aquatic and the remainder to be composed of grasses, sedges and rushes. Here is [my python code](/post/clustering_project.html)
+### According to a publication by the North Carolina Department of Environmental Quality [1], the middle of the Tuckasegee River watershed shown in this analysis "...drains the west-central portion of Jackson County...[and] traditionally, land use in the watershed was agricultural with light residential and commercial activity along the transportation corridors". In 2008, the NC Department of Mitigation Services designated Savannah Creek along with 18 other tributaries were identified for "...restoring wetland and stream functions such as maintaining and enhancing water quality, restoring hydrology, and improving fish and wildlife habitat."[2].
+
+<img src="img/Tuck_clusters.png">
+
+### Looking at the cluster analysis, # 1 may be vegetation along the river itself due to limited riparian buffer zones. Between 2001-2011 in unit 06010203 impervious surfaces increased by an average of 27 acres with forest converted by development (31 acres) or agriculture (2 acres). Clusters 2 and 3 dominate the plot and are most likely different forest types while clusters 4 and 5 are probably tied to residential and agricultural regions.
+
+## Here is [my python code for the cluster analysis](/post/clustering_nc.html)
 
 ### Sources
-1. America’s Watershed Initiative Report Card for the Mississippi River. Dec. 2015. Available online at: https://americaswatershed.org/wp-content/uploads/2015/12/Mississippi-River-Report-Card-Methods-v10.1.pdf
-2. Samapriya Roy et al. 2020. Spatial and temporal patterns of land loss in the Lower Mississippi River Delta from 1983 to 2016. Remote Sensing of Environment 250 (2020) 112046. Available online at: https://www.sciencedirect.com/science/article/abs/pii/S0034425720304168
+* Tuckasegee River Subbasin HUC 06010203. 2006 available online [HERE](https://files.nc.gov/ncdeq/Water%20Quality/Planning/BPU/BPU/Little_Tennessee/Little%20Tennessee%20Plans/2012%20Plan/3_06010203%20Tuckasegee.pdf)
+* Little Tennessee River Basin Restoration Priorities. June 2008. Amended 2018. available online [HERE](https://www.deq.nc.gov/mitigation-services/publicfolder/learn-about/core-processes/watershed-planning/little-tenn-river-basin/rbrp-ltn-2018/download#:~:text=The%20basin%20encompasses%20a%201%2C797,of%20TLWs%20and%20selected%20characteristics.&text=quality%2C%20restoring%20hydrology%2C%20and%20improving,River%20Basin%20are%20listed%20below.&text=other%20nongovernmental%20groups%20to%20protect%20and%20restore%20watersheds%20through%20restoration%20and%20preservation.&text=Middle%20Cr%2034%200.3%208%204%20mi%20of%20L)
 
-* USDA (2012), Response to RFI for Long-Term Agro-ecosystem Research (LTAR) Network, available online at: https://www.ars.usda.gov/ARSUserFiles/np211/LMRBProposal.pdf.
-* John Snead, Richard P. McCulloh, and Paul V. Heinrich (2019) Landforms of the Louisiana Coastal Plain, Louisiana Geological Survey, available online at: https://www.lsu.edu/lgs/publications/products/landforms_book.pdf 
+
