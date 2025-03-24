@@ -60,16 +60,22 @@ The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is f
 * GBIF.org (27 October 2024) GBIF Occurrence Download [https://doi.org/10.15468/dl.r463v3](https://doi.org/10.15468/dl.r463v3)
 
 # Modeling Urban Asthma Rates
+## The learning goals for this project were: 
+* Access larger-than-memory data in chunks
+* Compute fragmentation statistics
+* Compare urban greenspace distribution to health outcomes
+
+### In urban areas, vegetation can help clean the air from traffic and other air pollutants although simple measurements such as NDVI (Normalized Difference Vegetation Index) which document vegetative health have shown mixed results. The relationship between metrics such as mean patch size, edge density, fragmentation and human health may help quantify the benefit of greenspaces in an urban environment. This project investigated that idea.
+
 <img src="img/asthma_veg_maps.png" alt="A comparison of asthma rates with the geographic distribution of healthy vegetation as determined by NDVI.">
 
-### A comparison of asthma rates with the geographic distribution of healthy vegetation as determined by NDVI.
+### A comparison of asthma rates with the geographic distribution of healthy vegetation as determined by NDVI. Note that there are some correlation of areas with lots of vegetation (dark green) correspond to areas with low rates of asthma (purple) are identifiable in the side by side maps. 
 
 <img src="img/portland_model.png">
 
-### The result of this model shows that access to greenspace can explain some of the geographic distribution of asthma, but other factors are involved. 
+### To test the strength of this correlation, a linear ordinary least squares (OLS) regression model was used and shows that access to greenspace can explain some of the geographic distribution of asthma, but other factors are involved. 
 
-### Here is [my python code](/post/corrected_portland_model.html) for the model.
-Please note there are some data gaps due to changes made recently on the CDC website.
+### Here is [my python code](/post/corrected_portland_model.html) for the model. Please note there are some data gaps due to changes made recently on the CDC website.
 
 # Land Classification Project
 ### This project used an unsupervised K-means clustering algorithm to group land cover pixels by similar spectral signatures. This study will use the [harmonized Sentinal/Landsat multispectral dataset](https://lpdaac.usgs.gov/documents/1698/HLS_User_Guide_V2.pdf) to look at patterns in vegetation data. The HUC region 6 watershed covers the drainage of the Tennessee River Basin from Kentucky to the Gulf of Mexico. Most of the Tuckasegee River basin within this region is forested.
