@@ -98,4 +98,26 @@ The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is f
 1. Tuckasegee River Subbasin HUC 06010203. 2006 available online [HERE](https://files.nc.gov/ncdeq/Water%20Quality/Planning/BPU/BPU/Little_Tennessee/Little%20Tennessee%20Plans/2012%20Plan/3_06010203%20Tuckasegee.pdf)
 2. Little Tennessee River Basin Restoration Priorities. June 2008. Amended 2018. available online [HERE](https://www.deq.nc.gov/mitigation-services/publicfolder/learn-about/core-processes/watershed-planning/little-tenn-river-basin/rbrp-ltn-2018/download#:~:text=The%20basin%20encompasses%20a%201%2C797,of%20TLWs%20and%20selected%20characteristics.&text=quality%2C%20restoring%20hydrology%2C%20and%20improving,River%20Basin%20are%20listed%20below.&text=other%20nongovernmental%20groups%20to%20protect%20and%20restore%20watersheds%20through%20restoration%20and%20preservation.&text=Middle%20Cr%2034%200.3%208%204%20mi%20of%20L)
 
+## Habitat Suitability Project
+
+<img src="img/rhodo_photo.jpg">
+
+### _Rhododendron maximum_ is found in North Carolina and West Virginia which are both part of the Appalachian Mountains. Dudleya, et al identify _Rhododendron maximum_ as an emerging foundation species following the decline of the American Chestnut and Eastern Hemlock. In addition, "Rhododendron affects numerous riparian forest ecosystem processes, including decomposition and nutrient cycling." Of the four hardiness division established by Sakai, et al, _Rhododendron maximum_ is listed in the very hardy category with a tolerance for temperatures down to -40 F, although the USDA recommends a minimum temperature of -13 F with 150 frost free days. _Rhododendron maximum_ is adapted to medium & coarse textured soils with drought tolerance and medium tolerance for fire. It is found at elevations up to 6200 feet which includes all of Wayne County, WV and most of Jackson County, NC except for the highest peak Richland Balsam on the Blue Ridge Parkway. 
+
+### This project intended to compare different climate models using [MACAv2 data](https://www.climatologylab.org/maca.html), however various roadblocks led to an [incomplete project using pseudocode](https://github.com/earthlab-education/habitat-suitability-BioNCphilic/blob/main/climate.ipynb). I was able to establish the current distribution of _Rhododendron maximum_ as shown below using data from the [Global Biodiversity Information Facility](https://www.gbif.org/). 
+
+<img src="img/rhodo_dist.png">
+
+### In addition, the elevation of both counties provides suitable habitat as shown below.
+
+<img src="img/elevation_wv_nc.png">
+
+### If I had been successful in extracting minimum temperature data from the MACAv2 data, the next step would be to harmonize all rasters with the soil pH and percent sand composition of soils - shown below - along with the elevation data to analyze a consensus model of habitat suitability.
+
+<img src="img/soil_4_graphs.png">
+
+### Information Sources
+* Maura P. Dudleya, Mary Freeman, Seth Wenger, Rhett Jackson, and Catherine M. Pringle. 15 September 2020. Rethinking foundation species in a changing world: the case for Rhododendron maximum as an emerging foundation species in shifting ecosystems of the Southern Appalachians. Forest Ecology and Management Volume 472, p. 118240. available online: https://doi.org/10.1016/j.foreco.2020.118240
+* A. Sakai, L. Fuchigami, and C.J. Weiser. 1986. Cold Hardiness in the Genus Rhododendron. Journal of the American Society for Horticultural Science 111(2):273-280.
+* USDA PLANTS Database. [available online](https://plants.usda.gov/plant-profile/RHMA4/characteristics)
 
