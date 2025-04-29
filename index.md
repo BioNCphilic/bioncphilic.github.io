@@ -78,6 +78,11 @@ The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is f
 ### Here is [my python code](/post/corrected_portland_model.html) for the model. Please note there are some data gaps due to changes made recently on the CDC website.
 
 # Land Classification Project
+## The learning goals for this project were:
+* Group pixels by similar spectral signatures using K-means clustering algorithm
+* Use a pickle to store and retrieve an object
+* Use a decorator to modify and extend functions
+  
 ### This project used an unsupervised K-means clustering algorithm to group land cover pixels by similar spectral signatures. The K-means algorithm helps to reveal patterns or clusters that have minimal within-cluster variation. This study used the [harmonized Sentinal/Landsat multispectral dataset](https://lpdaac.usgs.gov/documents/1698/HLS_User_Guide_V2.pdf) to look at patterns in vegetation data. The HUC region 6 watershed covers the drainage of the Tennessee River Basin from Kentucky to the Gulf of Mexico. Most of the Tuckasegee River basin, where I live, is within this region is forested.
 
 <img src="img/jackson_county.png">
@@ -98,7 +103,10 @@ The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is f
 1. Tuckasegee River Subbasin HUC 06010203. 2006 available online [HERE](https://files.nc.gov/ncdeq/Water%20Quality/Planning/BPU/BPU/Little_Tennessee/Little%20Tennessee%20Plans/2012%20Plan/3_06010203%20Tuckasegee.pdf)
 2. Little Tennessee River Basin Restoration Priorities. June 2008. Amended 2018. available online [HERE](https://www.deq.nc.gov/mitigation-services/publicfolder/learn-about/core-processes/watershed-planning/little-tenn-river-basin/rbrp-ltn-2018/download#:~:text=The%20basin%20encompasses%20a%201%2C797,of%20TLWs%20and%20selected%20characteristics.&text=quality%2C%20restoring%20hydrology%2C%20and%20improving,River%20Basin%20are%20listed%20below.&text=other%20nongovernmental%20groups%20to%20protect%20and%20restore%20watersheds%20through%20restoration%20and%20preservation.&text=Middle%20Cr%2034%200.3%208%204%20mi%20of%20L)
 
-## Habitat Suitability Project
+# Habitat Suitability Project
+## The learning goals for this project were:
+* Extend the work from the previous habitat suitability project to include 4 climate scenarios
+* Create a modular and reproducible workflow combining multiple data layers related to soil, topography, and climate.
 
 <img src="img/rhodo_photo.jpg">
 
@@ -120,4 +128,16 @@ The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is f
 * Maura P. Dudleya, Mary Freeman, Seth Wenger, Rhett Jackson, and Catherine M. Pringle. 15 September 2020. Rethinking foundation species in a changing world: the case for Rhododendron maximum as an emerging foundation species in shifting ecosystems of the Southern Appalachians. Forest Ecology and Management Volume 472, p. 118240. available online: https://doi.org/10.1016/j.foreco.2020.118240
 * A. Sakai, L. Fuchigami, and C.J. Weiser. 1986. Cold Hardiness in the Genus Rhododendron. Journal of the American Society for Horticultural Science 111(2):273-280.
 * USDA PLANTS Database. [available online](https://plants.usda.gov/plant-profile/RHMA4/characteristics)
+
+# Capstone Project: Comparison of Surface Mineral Alteration by Fire at Two Different Scales
+## Project Team: Fellow classmate [Hannah Rieder](https://hanried.github.io/) and NEON data science advisor [Bridget Hass](https://github.com/bhass-neon)
+### Project Overview:
+* Create a [python tutorial](https://github.com/NEONScience/AOP-EMIT/tree/main) to integrate NEON and EMIT data specifically for identification of mineral content after a fire disturbance in the Sierra National Forest Soaproot Saddle Field Site.
+* We will use NEON AOP reflectance data before and after the Creek and Blue Fires at the Soaproot Saddle site 
+* A comparison with the EMIT mineral identification library will be used to assess the impact of the fires on mineral abundance and distribution.
+* Understanding physical and chemical changes in the substrate will help facilitate management of forest recovery.
+
+### Project Workflow
+<img src="img/capstone_workflow.png">
+
 
