@@ -130,7 +130,7 @@ The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is f
 * USDA PLANTS Database. [available online](https://plants.usda.gov/plant-profile/RHMA4/characteristics)
 
 # Capstone Project: Comparison of Surface Mineral Alteration by Fire at Two Different Scales
-## Project Team: Fellow classmate [Hannah Rieder](https://hanried.github.io/) and NEON data science advisor [Bridget Hass](https://github.com/bhass-neon)
+## Project Team: Fellow classmate [Hannah Rieder](https://github.com/hanried) and NEON data science advisor [Bridget Hass](https://github.com/bhass-neon)
 ### Project Overview:
 * Create a [python tutorial](https://github.com/NEONScience/AOP-EMIT/tree/main) to integrate NEON and EMIT data specifically for identification of mineral content after a fire disturbance in the Sierra National Forest Soaproot Saddle Field Site.
 * We will use NEON AOP reflectance data before and after the Creek and Blue Fires at the Soaproot Saddle site 
