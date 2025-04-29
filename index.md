@@ -140,4 +140,4 @@ The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is f
 ### Project Workflow
 <img src="img/capstone_workflow.png">
 
-
+### Jupyter Notebook for Project can be found [HERE](https://github.com/NEONScience/AOP-EMIT/tree/rneff)
