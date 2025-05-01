@@ -128,7 +128,7 @@ If I had been successful in extracting minimum temperature data from the MACAv2 
 <img src="img/soil_4_graphs.png">
 
 ### Information Sources
-* Maura P. Dudleya, Mary Freeman, Seth Wenger, Rhett Jackson, and Catherine M. Pringle. 15 September 2020. Rethinking foundation species in a changing world: the case for Rhododendron maximum as an emerging foundation species in shifting ecosystems of the Southern Appalachians. Forest Ecology and Management Volume 472, p. 118240. available online: https://doi.org/10.1016/j.foreco.2020.118240
+* Maura P. Dudleya, Mary Freeman, Seth Wenger, Rhett Jackson, and Catherine M. Pringle. 15 September 2020. Rethinking foundation species in a changing world: the case for Rhododendron maximum as an emerging foundation species in shifting ecosystems of the Southern Appalachians. Forest Ecology and Management Volume 472, p. 118240. available online: [https://doi.org/10.1016/j.foreco.2020.118240](https://doi.org/10.1016/j.foreco.2020.118240)
 * A. Sakai, L. Fuchigami, and C.J. Weiser. 1986. Cold Hardiness in the Genus Rhododendron. Journal of the American Society for Horticultural Science 111(2):273-280.
 * USDA PLANTS Database. [available online](https://plants.usda.gov/plant-profile/RHMA4/characteristics)
 
@@ -151,22 +151,22 @@ Listed below are a variety of resources used to support our project.
 
 ### EMIT Data & Resources 
 EMITL2BMIN “provides estimated mineral identification and band depths in a spatially raw, non-orthocorrected format” (Green, 2023). Each granule has two NetCDF4 files with a 60 m spatial resolution that include mineral identification and uncertainty estimate. Minerals identified in this dataset include: calcite, chlorite, dolomite, goethite, gypsum, hematite, illite+muscovite, kaolinite, montmorillonite, and vermiculite. 
-* https://github.com/nasa/EMIT-Data-Resources
-* https://github.com/nasa/VITALS
-* https://github.com/emit-sds/emit-main/wiki/Repository-Guide
+* [https://github.com/nasa/EMIT-Data-Resources](https://github.com/nasa/EMIT-Data-Resources)
+* [https://github.com/nasa/VITALS](https://github.com/nasa/VITALS)
+* [https://github.com/emit-sds/emit-main/wiki/Repository-Guide](https://github.com/emit-sds/emit-main/wiki/Repository-Guide)
 
 ### NEON Data & Resources
 This is hyperspectral raster data distributed in an open HDF5 format in UTM projection showing scaled reflectance. Each file contains all 426 reflectance bands for a single 1 km by 1 km tile. 
-* https://www.neonscience.org/data
-* https://github.com/NEONScience/VITALS/blob/main/setup/setup_instructions.md
-* https://github.com/NEONScience/VITALS/tree/main
+* [https://www.neonscience.org/data](https://www.neonscience.org/data)
+* [https://github.com/NEONScience/VITALS/blob/main/setup/setup_instructions.md](https://github.com/NEONScience/VITALS/blob/main/setup/setup_instructions.md)
+* [https://github.com/NEONScience/VITALS/tree/main](https://github.com/NEONScience/VITALS/tree/main)
 
 ### My Jupyter Notebook for our project can be found [HERE](https://github.com/NEONScience/AOP-EMIT/tree/rneff)
 Note: we are in the early stages of this project which will be completed in August 2025. 
 
 #### Sources: 
-* Bueno, I. T., Silva, C. A., Anderson-Teixeira, K., Magee, L., Zheng, C., Broadbent, E. N., Zambrano, A. M. A., & Johnson, D. J. (2025). Aboveground Biomass and Tree Mortality Revealed Through Multi-Scale LiDAR Analysis. Remote Sensing, 17(5), 796. https://doi.org/10.3390/rs17050796
-* Green, R. (2023). EMIT L2B Estimated Mineral Identification and Band Depth and Uncertainty 60 m V001. NASA Land Processes Distributed Active Archive Center. https://doi.org/10.5067/EMIT/EMITL2BMIN.001
-* Handler, C. (2019). Sierra National Forest Forestwide Prescribed Fire Project: Updated Purpose, Need and Proposed Action. United States Department of Agriculture. https://firerestorationgroup.org/snf-forestwide-rx-burn
-* NEON (National Ecological Observatory Network). Spectrometer orthorectified surface bidirectional reflectance - mosaic (DP3.30006.002), provisional data. Dataset accessed from https://data.neonscience.org/data-products/DP3.30006.002 on April 15, 2025. 
-* Park, T., & Sim, S. (2023). Characterizing spatial burn severity patterns of 2016 Chimney Tops 2 fire using multi-temporal Landsat and NEON LiDAR data. Frontiers in Remote Sensing, 4. https://doi.org/10.3389/frsen.2023.1096000
+* Bueno, I. T., Silva, C. A., Anderson-Teixeira, K., Magee, L., Zheng, C., Broadbent, E. N., Zambrano, A. M. A., & Johnson, D. J. (2025). Aboveground Biomass and Tree Mortality Revealed Through Multi-Scale LiDAR Analysis. Remote Sensing, 17(5), 796. [https://doi.org/10.3390/rs17050796](https://doi.org/10.3390/rs17050796)
+* Green, R. (2023). EMIT L2B Estimated Mineral Identification and Band Depth and Uncertainty 60 m V001. NASA Land Processes Distributed Active Archive Center. [https://doi.org/10.5067/EMIT/EMITL2BMIN.001](https://doi.org/10.5067/EMIT/EMITL2BMIN.001)
+* Handler, C. (2019). Sierra National Forest Forestwide Prescribed Fire Project: Updated Purpose, Need and Proposed Action. United States Department of Agriculture. [https://firerestorationgroup.org/snf-forestwide-rx-burn](https://firerestorationgroup.org/snf-forestwide-rx-burn)
+* NEON (National Ecological Observatory Network). Spectrometer orthorectified surface bidirectional reflectance - mosaic (DP3.30006.002), provisional data. Dataset accessed from [https://data.neonscience.org/data-products/DP3.30006.002](https://data.neonscience.org/data-products/DP3.30006.002) on April 15, 2025. 
+* Park, T., & Sim, S. (2023). Characterizing spatial burn severity patterns of 2016 Chimney Tops 2 fire using multi-temporal Landsat and NEON LiDAR data. Frontiers in Remote Sensing, 4. [https://doi.org/10.3389/frsen.2023.1096000](https://doi.org/10.3389/frsen.2023.1096000)
