@@ -162,7 +162,7 @@ This is hyperspectral raster data distributed in an open HDF5 format in UTM proj
 * [https://github.com/NEONScience/VITALS/tree/main](https://github.com/NEONScience/VITALS/tree/main)
 
 ### My Jupyter Notebook for our project can be found [HERE](https://github.com/NEONScience/AOP-EMIT/tree/rneff)
-Note: we are in the early stages of this project which will be completed in August 2025. 
+Note: We are in the early stages of this project which will be completed in August 2025. In this group collaboration, Bridget Hass is guiding us on how to access and structure our work in jupyter notebook which is reflected on the [main branch]((https://github.com/NEONScience/AOP-EMIT/tree/main). To date, I have contributed research on the science of fire impacts on soil composition and Hannah Rieder has worked on the spectral data which is shown on [her branch](https://github.com/NEONScience/AOP-EMIT/tree/hrieder/notebooks).
 
 #### Sources: 
 * Bueno, I. T., Silva, C. A., Anderson-Teixeira, K., Magee, L., Zheng, C., Broadbent, E. N., Zambrano, A. M. A., & Johnson, D. J. (2025). Aboveground Biomass and Tree Mortality Revealed Through Multi-Scale LiDAR Analysis. Remote Sensing, 17(5), 796. [https://doi.org/10.3390/rs17050796](https://doi.org/10.3390/rs17050796)
