@@ -132,12 +132,36 @@ The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is f
 # Capstone Project: Comparison of Surface Mineral Alteration by Fire at Two Different Scales
 ## Project Team: Fellow classmate [Hannah Rieder](https://github.com/hanried) and NEON data science advisor [Bridget Hass](https://github.com/bhass-neon)
 ### Project Overview:
-* Create a [python tutorial](https://github.com/NEONScience/AOP-EMIT/tree/main) to integrate NEON and EMIT data specifically for identification of mineral content after a fire disturbance in the Sierra National Forest Soaproot Saddle Field Site.
-* We will use NEON AOP reflectance data before and after the Creek and Blue Fires at the Soaproot Saddle site 
-* A comparison with the EMIT mineral identification library will be used to assess the impact of the fires on mineral abundance and distribution.
-* Understanding physical and chemical changes in the substrate will help facilitate management of forest recovery.
+We will investigate the mineral content of the Earth’s surface based upon reflectance data and develop a [python tutorial](https://github.com/NEONScience/AOP-EMIT/tree/main) for others seeking to use these two datasets. We expect that to find a correlation between and therefore, expand data products available to NEON data users. In addition, we hope to analyze differences in mineral content before and after burning by wildfires. Using two different scales will allow us to use detailed information from NEON to interpret broader patterns found in EMIT data. “Ground truthing” with NEON data will help identify sources of variability in EMIT data and reduce the influence of outliers. Mineral identification for the EMIT library is effective for areas without dense vegetation and moisture, so comparison with NEON reflectance data may help minimize potential issues by clarifying signal interference sources.
+
+A previous study by Park and Sim (2023) showed that Landsat and Lidar measures of burn severity were comparable and Lidar has been used to document tree mortality in difficult forest terrains (Bueno et al., 2025).  The EMIT instrument on the International Space Station introduces the potential of extending Lidar measurements to include surface minerals. Handler (2019) noted that “...fire hazard pose threats to physical, biological, and social values in the project area such as: soil stability, hydrology and air quality, [and] wildlife habitat…” This project aims to develop another tool for evaluating forest restoration needs based upon soil characteristics using the EMIT mineral spectral library to classify local NEON spectral data. Understanding the severity of fire at the mineral level as well as the landscape level will be valuable to forest managers.
 
 ### Project Workflow
 <img src="img/capstone_workflow.png">
 
-### Jupyter Notebook for Project can be found [HERE](https://github.com/NEONScience/AOP-EMIT/tree/rneff)
+Our general method will be to identify co-located EMIT L2B Estimated Mineral Identification data with NEON Airborne Observation Platform data in the Sierra National Forest Soaproot Saddle site where the Creek Fire (2020) and the Blue Fire (2021) occurred. The downloaded EMIT data after being orthorectified, will be used to create distribution maps based upon the library for 10 specific minerals. Cluster analysis will be used to classify the NEON data and then compare it with the EMIT maps. Ultimately, we would like to understand how fire disturbances affect Earth surface minerals and create a road map for future explorations of co-located data from these two sources. 
+
+<img src="img/soap_fire_boundary.png">
+
+Listed below are a variety of resources used to support our project. 
+
+### EMIT Data & Resources 
+EMITL2BMIN “provides estimated mineral identification and band depths in a spatially raw, non-orthocorrected format” (Green, 2023). Each granule has two NetCDF4 files with a 60 m spatial resolution that include mineral identification and uncertainty estimate. Minerals identified in this dataset include: calcite, chlorite, dolomite, goethite, gypsum, hematite, illite+muscovite, kaolinite, montmorillonite, and vermiculite. 
+* https://github.com/nasa/EMIT-Data-Resources
+* https://github.com/nasa/VITALS
+* https://github.com/emit-sds/emit-main/wiki/Repository-Guide
+
+### NEON Data & Resources
+This is hyperspectral raster data distributed in an open HDF5 format  in UTM projection showing scaled reflectance. Each file contains all 426 reflectance bands for a single 1 km by 1 km tile. 
+* https://www.neonscience.org/data
+* https://github.com/NEONScience/VITALS/blob/main/setup/setup_instructions.md
+* https://github.com/NEONScience/VITALS/tree/main
+
+### My Jupyter Notebook for our project can be found [HERE](https://github.com/NEONScience/AOP-EMIT/tree/rneff)
+
+#### Sources: 
+* Bueno, I. T., Silva, C. A., Anderson-Teixeira, K., Magee, L., Zheng, C., Broadbent, E. N., Zambrano, A. M. A., & Johnson, D. J. (2025). Aboveground Biomass and Tree Mortality Revealed Through Multi-Scale LiDAR Analysis. Remote Sensing, 17(5), 796. https://doi.org/10.3390/rs17050796
+* Green, R. (2023). EMIT L2B Estimated Mineral Identification and Band Depth and Uncertainty 60 m V001. NASA Land Processes Distributed Active Archive Center. https://doi.org/10.5067/EMIT/EMITL2BMIN.001
+* Handler, C. (2019). Sierra National Forest Forestwide Prescribed Fire Project: Updated Purpose, Need and Proposed Action. United States Department of Agriculture. https://firerestorationgroup.org/snf-forestwide-rx-burn
+* NEON (National Ecological Observatory Network). Spectrometer orthorectified surface bidirectional reflectance - mosaic (DP3.30006.002), provisional data. Dataset accessed from https://data.neonscience.org/data-products/DP3.30006.002 on April 15, 2025. 
+* Park, T., & Sim, S. (2023). Characterizing spatial burn severity patterns of 2016 Chimney Tops 2 fire using multi-temporal Landsat and NEON LiDAR data. Frontiers in Remote Sensing, 4. https://doi.org/10.3389/frsen.2023.1096000
