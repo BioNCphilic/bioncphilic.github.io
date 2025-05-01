@@ -35,7 +35,8 @@ Creating an interactive map using Open Street Map was our first assignment.
 <img src="img/denver_trendline.png" alt="A graph showing a linear regression of mean annual temperatures in Denver, Co">
 <img src="img/coweeta_trendline.png" alt="A graph showing a linear regression of mean annual temperatures at Coweeta Hydrologic Lab">
 
-### Here is [my python code](/post/nc_climate.html) showing extraction and analysis of data from Coweeta Hydrologic Lab (elevation 2200-3800ft). I chose Coweeta because it is near where I live and work and has been collecting data for a long time. Note that it's hard to compare the two trendlines because one is in degrees Fahrenheit and the other is in degrees Celsius. However, the slope on both plots show a gradual trend upward. If I weren't trying to finish the rest of the assignments, I might run some additional statistics, but for now I'm thrilled I can share this part of my work especially since hurricane Helene caused the NOAA data center to be offline for a little while.
+### Here is [my python code](/post/nc_climate.html) showing extraction and analysis of data from Coweeta Hydrologic Lab (elevation 2200-3800ft). 
+I chose Coweeta because it is near where I live and work and has been collecting data for a long time. Note that it's hard to compare the two trendlines because one is in degrees Fahrenheit and the other is in degrees Celsius. However, the slope on both plots show a gradual trend upward. If I weren't trying to finish the rest of the assignments, I might run some additional statistics, but for now I'm thrilled I can share this part of my work especially since hurricane Helene caused the NOAA data center to be offline for a little while.
 
 ## Mapping Migration - Species Distribution challenge - we learned to:
 * Combine different types of vector data with spatial joins
@@ -51,7 +52,8 @@ The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is f
 * The model is based on combining multiple data layers related to soil, topography, and climate.
 * I chose native Rivercane - <i>Arundinaria gigantea</i> - because restoration efforts are relevant locally
 
-### My work on this project can be viewed [here](https://github.com/BioNCphilic/rivercane). It is a work in progress which I plan to complete during the spring semester. Previously I worked with SCC student Stella Walborn using the TourIt platform from [Infiniscope](https://infiniscope.org/) and a wealth of resources from regional groups to create a virtual tour of rivercane in WNC. You can find that [here](https://p.tourit.etx.asu.edu/v1fshqa2/0wf7eb0e1oddykg/index.html). 
+### My work on this project can be viewed [here](https://github.com/BioNCphilic/rivercane). 
+This is a work in progress which I plan to complete eventually. Previously I worked with SCC student Stella Walborn using the TourIt platform from [Infiniscope](https://infiniscope.org/) and a wealth of resources from regional groups to create a virtual tour of rivercane in WNC. You can find that [here](https://p.tourit.etx.asu.edu/v1fshqa2/0wf7eb0e1oddykg/index.html). 
 
 ## Sources:
 
@@ -69,13 +71,13 @@ The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is f
 
 <img src="img/asthma_veg_maps.png" alt="A comparison of asthma rates with the geographic distribution of healthy vegetation as determined by NDVI.">
 
-### A comparison of asthma rates with the geographic distribution of healthy vegetation as determined by NDVI. Note that there are some correlation of areas with lots of vegetation (dark green) correspond to areas with low rates of asthma (purple) are identifiable in the side by side maps. 
+A comparison of asthma rates with the geographic distribution of healthy vegetation as determined by NDVI. Note that there are some correlation of areas with lots of vegetation (dark green) correspond to areas with low rates of asthma (purple) are identifiable in the side by side maps. 
 
 <img src="img/portland_model.png">
 
-### To test the strength of this correlation, a linear ordinary least squares (OLS) regression model was used and shows that access to greenspace can explain some of the geographic distribution of asthma, but other factors are involved. 
+To test the strength of this correlation, a linear ordinary least squares (OLS) regression model was used and shows that access to greenspace can explain some of the geographic distribution of asthma, but other factors are involved. 
 
-### Here is [my python code](/post/corrected_portland_model.html) for the model. Please note there are some data gaps due to changes made recently on the CDC website.
+### Here is [my python code](/post/corrected_portland_model.html) for the model. Please note there are some data gaps due to changes made on the CDC website.
 
 # Land Classification Project
 ## The learning goals for this project were:
@@ -86,16 +88,17 @@ The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is f
 ### This project used an unsupervised K-means clustering algorithm to group land cover pixels by similar spectral signatures. The K-means algorithm helps to reveal patterns or clusters that have minimal within-cluster variation. This study used the [harmonized Sentinal/Landsat multispectral dataset](https://lpdaac.usgs.gov/documents/1698/HLS_User_Guide_V2.pdf) to look at patterns in vegetation data. The HUC region 6 watershed covers the drainage of the Tennessee River Basin from Kentucky to the Gulf of Mexico. Most of the Tuckasegee River basin, where I live, is within this region is forested.
 
 <img src="img/jackson_county.png">
+
 ### The [image above](https://www.ncpedia.org/geography/jackson) shows the location of Jackson County in North Carolina where the Tuckaseegee River originates.
 
 <img src="img/Tuck_watershed.png">
 
 ## Land Cover Interpretation based on Spectral Data
-### According to a publication by the North Carolina Department of Environmental Quality [1], the middle of the Tuckasegee River watershed shown in this analysis "...drains the west-central portion of Jackson County...[and] traditionally, land use in the watershed was agricultural with light residential and commercial activity along the transportation corridors". In 2008, the NC Department of Mitigation Services designated Savannah Creek along with 18 other tributaries were identified for "...restoring wetland and stream functions such as maintaining and enhancing water quality, restoring hydrology, and improving fish and wildlife habitat."[2].
+According to a publication by the North Carolina Department of Environmental Quality [1], the middle of the Tuckasegee River watershed shown in this analysis "...drains the west-central portion of Jackson County...[and] traditionally, land use in the watershed was agricultural with light residential and commercial activity along the transportation corridors". In 2008, the NC Department of Mitigation Services designated Savannah Creek along with 18 other tributaries were identified for "...restoring wetland and stream functions such as maintaining and enhancing water quality, restoring hydrology, and improving fish and wildlife habitat."[2].
 
 <img src="img/Tuck_clusters.png">
 
-### Looking at the cluster analysis, # 1 may be vegetation along the river itself due to limited riparian buffer zones. Between 2001-2011 in unit 06010203 impervious surfaces increased by an average of 27 acres with forest converted by development (31 acres) or agriculture (2 acres). Clusters 2 and 3 dominate the plot and are most likely different forest types while clusters 4 and 5 are probably tied to residential and agricultural regions.
+Looking at the cluster analysis, # 1 may be vegetation along the river itself due to limited riparian buffer zones. Between 2001-2011 in unit 06010203 impervious surfaces increased by an average of 27 acres with forest converted by development (31 acres) or agriculture (2 acres). Clusters 2 and 3 dominate the plot and are most likely different forest types while clusters 4 and 5 are probably tied to residential and agricultural regions.
 
 ## Here is [my python code for the cluster analysis](/post/clustering_nc.html)
 
@@ -110,7 +113,7 @@ The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is f
 
 <img src="img/rhodo_photo.jpg">
 
-### _Rhododendron maximum_ is found in North Carolina and West Virginia which are both part of the Appalachian Mountains. Dudleya, et al identify _Rhododendron maximum_ as an emerging foundation species following the decline of the American Chestnut and Eastern Hemlock. In addition, "Rhododendron affects numerous riparian forest ecosystem processes, including decomposition and nutrient cycling." Of the four hardiness division established by Sakai, et al, _Rhododendron maximum_ is listed in the very hardy category with a tolerance for temperatures down to -40 F, although the USDA recommends a minimum temperature of -13 F with 150 frost free days. _Rhododendron maximum_ is adapted to medium & coarse textured soils with drought tolerance and medium tolerance for fire. It is found at elevations up to 6200 feet which includes all of Wayne County, WV and most of Jackson County, NC except for the highest peak Richland Balsam on the Blue Ridge Parkway. 
+_Rhododendron maximum_ is found in North Carolina and West Virginia which are both part of the Appalachian Mountains. Dudleya, et al identify _Rhododendron maximum_ as an emerging foundation species following the decline of the American Chestnut and Eastern Hemlock. In addition, "Rhododendron affects numerous riparian forest ecosystem processes, including decomposition and nutrient cycling." Of the four hardiness division established by Sakai, et al, _Rhododendron maximum_ is listed in the very hardy category with a tolerance for temperatures down to -40 F, although the USDA recommends a minimum temperature of -13 F with 150 frost free days. _Rhododendron maximum_ is adapted to medium & coarse textured soils with drought tolerance and medium tolerance for fire. It is found at elevations up to 6200 feet which includes all of Wayne County, WV and most of Jackson County, NC except for the highest peak Richland Balsam on the Blue Ridge Parkway. 
 
 ### This project intended to compare different climate models using [MACAv2 data](https://www.climatologylab.org/maca.html), however various roadblocks led to an [incomplete project using pseudocode](https://github.com/earthlab-education/habitat-suitability-BioNCphilic/blob/main/climate.ipynb). I was able to establish the current distribution of _Rhododendron maximum_ as shown below using data from the [Global Biodiversity Information Facility](https://www.gbif.org/). 
 
@@ -120,7 +123,7 @@ The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is f
 
 <img src="img/elevation_wv_nc.png">
 
-### If I had been successful in extracting minimum temperature data from the MACAv2 data, the next step would be to harmonize all rasters with the soil pH and percent sand composition of soils - shown below - along with the elevation data to analyze a consensus model of habitat suitability.
+If I had been successful in extracting minimum temperature data from the MACAv2 data, the next step would be to harmonize all rasters with the soil pH and percent sand composition of soils - shown below - along with the elevation data to analyze a consensus model of habitat suitability.
 
 <img src="img/soil_4_graphs.png">
 
@@ -132,7 +135,7 @@ The Veery or <i>Catharus fuscescens</i>, is part of the Turdidae family. It is f
 # Capstone Project: Comparison of Surface Mineral Alteration by Fire at Two Different Scales
 ## Project Team: Fellow classmate [Hannah Rieder](https://github.com/hanried) and NEON data science advisor [Bridget Hass](https://github.com/bhass-neon)
 ### Project Overview:
-We will investigate the mineral content of the Earth’s surface based upon reflectance data and develop a [python tutorial](https://github.com/NEONScience/AOP-EMIT/tree/main) for others seeking to use these two datasets. We expect that to find a correlation between and therefore, expand data products available to NEON data users. In addition, we hope to analyze differences in mineral content before and after burning by wildfires. Using two different scales will allow us to use detailed information from NEON to interpret broader patterns found in EMIT data. “Ground truthing” with NEON data will help identify sources of variability in EMIT data and reduce the influence of outliers. Mineral identification for the EMIT library is effective for areas without dense vegetation and moisture, so comparison with NEON reflectance data may help minimize potential issues by clarifying signal interference sources.
+We will investigate the mineral content of the Earth’s surface based upon reflectance data and develop a [python tutorial](https://github.com/NEONScience/AOP-EMIT/tree/main) for others seeking to use these two datasets. We expect that to find a correlation NEON and EMIT data and therefore, expand data products available to NEON data users. In addition, we hope to analyze differences in mineral content before and after burning by wildfires. Using two different scales will allow us to use detailed information from NEON to interpret broader patterns found in EMIT data. “Ground truthing” with NEON data will help identify sources of variability in EMIT data and reduce the influence of outliers. Mineral identification for the EMIT library is effective for areas without dense vegetation and moisture, so comparison with NEON reflectance data may help minimize potential issues by clarifying signal interference sources.
 
 A previous study by Park and Sim (2023) showed that Landsat and Lidar measures of burn severity were comparable and Lidar has been used to document tree mortality in difficult forest terrains (Bueno et al., 2025).  The EMIT instrument on the International Space Station introduces the potential of extending Lidar measurements to include surface minerals. Handler (2019) noted that “...fire hazard pose threats to physical, biological, and social values in the project area such as: soil stability, hydrology and air quality, [and] wildlife habitat…” This project aims to develop another tool for evaluating forest restoration needs based upon soil characteristics using the EMIT mineral spectral library to classify local NEON spectral data. Understanding the severity of fire at the mineral level as well as the landscape level will be valuable to forest managers.
 
@@ -141,6 +144,7 @@ A previous study by Park and Sim (2023) showed that Landsat and Lidar measures o
 
 Our general method will be to identify co-located EMIT L2B Estimated Mineral Identification data with NEON Airborne Observation Platform data in the Sierra National Forest Soaproot Saddle site where the Creek Fire (2020) and the Blue Fire (2021) occurred. The downloaded EMIT data after being orthorectified, will be used to create distribution maps based upon the library for 10 specific minerals. Cluster analysis will be used to classify the NEON data and then compare it with the EMIT maps. Ultimately, we would like to understand how fire disturbances affect Earth surface minerals and create a road map for future explorations of co-located data from these two sources. 
 
+### Below is an image (from Google Earth Engine) showing an RGB band combo of the 2024 AOP SOAP hyperspectral data with the southern part of the Creek Fire boundary.
 <img src="img/soap_fire_boundary.png">
 
 Listed below are a variety of resources used to support our project. 
@@ -152,12 +156,13 @@ EMITL2BMIN “provides estimated mineral identification and band depths in a spa
 * https://github.com/emit-sds/emit-main/wiki/Repository-Guide
 
 ### NEON Data & Resources
-This is hyperspectral raster data distributed in an open HDF5 format  in UTM projection showing scaled reflectance. Each file contains all 426 reflectance bands for a single 1 km by 1 km tile. 
+This is hyperspectral raster data distributed in an open HDF5 format in UTM projection showing scaled reflectance. Each file contains all 426 reflectance bands for a single 1 km by 1 km tile. 
 * https://www.neonscience.org/data
 * https://github.com/NEONScience/VITALS/blob/main/setup/setup_instructions.md
 * https://github.com/NEONScience/VITALS/tree/main
 
 ### My Jupyter Notebook for our project can be found [HERE](https://github.com/NEONScience/AOP-EMIT/tree/rneff)
+Note: we are in the early stages of this project which will be completed in August 2025. 
 
 #### Sources: 
 * Bueno, I. T., Silva, C. A., Anderson-Teixeira, K., Magee, L., Zheng, C., Broadbent, E. N., Zambrano, A. M. A., & Johnson, D. J. (2025). Aboveground Biomass and Tree Mortality Revealed Through Multi-Scale LiDAR Analysis. Remote Sensing, 17(5), 796. https://doi.org/10.3390/rs17050796
