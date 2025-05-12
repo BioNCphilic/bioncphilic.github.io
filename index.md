@@ -161,7 +161,7 @@ This is hyperspectral raster data distributed in an open HDF5 format in UTM proj
 * [https://github.com/NEONScience/VITALS/blob/main/setup/setup_instructions.md](https://github.com/NEONScience/VITALS/blob/main/setup/setup_instructions.md)
 * [https://github.com/NEONScience/VITALS/tree/main](https://github.com/NEONScience/VITALS/tree/main)
 
-### My Jupyter Notebook for our project can be found [HERE](https://github.com/NEONScience/AOP-EMIT/tree/rneff)
+### My Jupyter Notebook for our project can be found [HERE](https://github.com/NEONScience/AOP-EMIT/tree/neffr)
 Note: We are in the early stages of this project which will be completed in August 2025. In this group collaboration, Bridget Hass is guiding us on how to access and structure our work in jupyter notebook which is reflected on the [main branch](https://github.com/NEONScience/AOP-EMIT/tree/main). To date, I have contributed research on the science of fire impacts on soil composition and Hannah Rieder has worked on the spectral data which is shown on [her branch](https://github.com/NEONScience/AOP-EMIT/tree/hrieder/notebooks).
 
 #### Sources: 
