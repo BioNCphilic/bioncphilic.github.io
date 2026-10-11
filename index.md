@@ -3,15 +3,11 @@ This adventure made possible through the University of Colorado Boulder
 and the [Environmental Data Science Innovation and Inclusion Lab](https://esiil.org/)
 
 ### Contact Information
-* Email: <a href="mailto:r_neff@southwesterncc.edu">r_neff@southwesterncc.edu</a>
+* Email: <a href="mailto:wncneffrc@gmail.com">wncneffrc@gmail.com</a>
 * [LinkedIN](https://www.linkedin.com/in/randi-neff-b7a27823b/)
 
-I have been the Project Coordinator for the Smoky Mountain STEM Collaborative {SMSC} at SCC since 2018. SMSC is part of 
-[NASA's SciAct community](https://science.nasa.gov/learn/science-activation-team/). Southwestern is the nation's only 
-community college to have a collaborative partnership with NASA which started in 2015. My background is in science education
-with 16 years experience teaching High School and I have an M.S. in Biology with many years teaching at the college level. In addition, 
-I also worked as the assistant director for Western Carolina University's Upward bound Math & Science program in the 1990s. 
-My passions are inspiring young people to answer their own questions and supporting those who live and work in western North Carolina.
+I was the Project Coordinator for the Smoky Mountain STEM Collaborative {SMSC} at SCC. SMSC is part of 
+[NASA's SciAct community](https://science.nasa.gov/learn/science-activation-team/). Southwestern had a collaborative partnership with NASA which started in 2015, but has since been defunded. As part of my SMSC work, I took a 3 semester course to learn how to teach others to gather remote sensing data and answer their own questions. Now that I'm retired, I'm using these skills to support my desire to be a science fiction writer. On this page you will find examples of my coursework and you can read samples of my writing on substack, starting with <a href="https://wncresilience.substack.com/p/this-is-gonna-get-weird">this post</a>.
 
 # My Projects for the [Earth Data Analytics Professional Graduate Certificate](https://earthlab.colorado.edu/earth-data-analytics-professional-graduate-certificate)
 ## Adding a Map - we learned to:
